@@ -18,16 +18,25 @@ Resposta:
   var RG: inteiro
   
   inicio
+  escreva("Qual o seu nome? ")
   leia(Nome)
+
+  escreva("Qual o seu Endereço? ")
   leia(Endereço)
+ 
+  escreva("Qual a sua cidade? ")
   leia(Cidade)
+  
+  escreva("Qual o seu CPF? ")
   leia(CPF)
+
+  escreva("Qual o seu RG? ")
   leia(RG)
 
-  escreva(Nome)
-  escreva(Endereço)
-  escreva(Cidade)
-  escreva(CPF)
-  escreva(RG)
+  escreva("Seu nome é", Nome)
+  escreva("Você mora na", Endereço)
+  escreva("Sua cidade é", Cidade)
+  escreva("Seu CPF é", CPF)
+  escreva("Seu RG é", RG)
   fim
 
