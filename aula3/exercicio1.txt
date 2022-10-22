@@ -1,0 +1,37 @@
+Entender situações do cotidiano… para tomada de decisão 
+
+Elabore um algoritmo que possa descobrir, através de perguntas e respostas, em qual área de um restaurante 
+uma pessoa ou grupo de pessoas precisa ser alocada. 
+O restaurante tem três áreas: 
+    térreo, 
+    1ro andar 
+    e área externa. 
+
+Clientes fumantes ou com animais de estimação precisam ser alocadas na área externa. Grupos de 5 ou mais 
+precisam ser alocados no 1ro andar, pois não dá para juntar mesas no térreo. Qualquer outro grupo de pessoas 
+pode ser alocado no térreo. 
+
+Resposta:
+
+var
+  quantPessoas: inteiro
+  fumantes, comPet: logico
+
+inicio
+  escreva("Mesa para quantas pessoas? ")
+  leia(quantPessoas)
+  escreva("Possui pessoas fumantes? ")
+  leia(fumantes)
+  escreva("Possui animais de estimação acompanhado? ")
+  leia(comPet)
+
+## Processamento
+  se(fumantes ou comPet) entao
+    escreva("Por favor, diriga-se para a área externa.")
+  senao se(quantPessoas < 5) entao
+    escreva("Por favor, diriga-se para o térreo.")
+  senao
+    escreva("Por favor, dirigam-se para o 1o andar.")
+  fimse
+
+fim
