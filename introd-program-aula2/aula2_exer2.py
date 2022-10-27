@@ -19,7 +19,7 @@ peso_veiculo = float(0)
 quant_pessoas = int(0)
 
 
-if 2 >= quant_rodas <= 3:
+if 2 <= quant_rodas <= 3:
     print(f'A categoria de habilitação para o veículo de {quant_rodas} rodas é: A')
   
 elif quant_rodas >= 4:
