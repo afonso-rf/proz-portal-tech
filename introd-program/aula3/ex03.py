@@ -11,3 +11,31 @@ Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilh
 projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.
 '''
 
+# Resposta:
+
+# Função Opcional
+def banner():
+    print('#' * 80)
+    print(f'#{"Consulte sua Idade atual":^78}#')
+    print('#' * 80)
+    
+banner()
+print()
+print('Qual seu nome?')
+nome = input('>> ').strip().title()
+idade = 0
+while True:
+    try:
+        ano = int(input('Em que ano você nasceu? ').strip())
+        if 1922 < ano < 2021:
+           idade = 2022 - ano
+           break
+        else:
+            print('Ano invalido! Digite o ano correto.')
+    except Exception as error:
+      print('Erro! Por favor, digite somente números inteiros.')
+
+print('=' * 80)
+print(f'Olá {nome}!\nVocê tem {idade} anos.')
+print('=' * 80)
+print(f'Obrigado e até mais!')
