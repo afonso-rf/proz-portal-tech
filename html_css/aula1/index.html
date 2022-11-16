@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+Crie exemplos de utilização das tags mais comuns na HTML: metadados, separação de conteúdo, 
+texto, imagem e formulário. É necessário pelo menos dois exemplos de cada tipo. 
+
+Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse 
+projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.
+-->
+<html lang="pt-br">
+
+<head>
+    <meta charset="'UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Prox - HTML/CSS</title>
+
+</head>
+
+<body>
+    <header style="text-align: center">
+        <h1>Hello, World!</h1>
+    </header>
+
+    <section style="margin: 30px; padding: 0px 100px;">
+        <div style="text-align: center; ">
+            <h3>Essa é a primeira pagina WEB </h3>
+            <div style="display: flex">
+                <div style="margin: auto; padding: 20px; background-color: rgb(246, 242, 125);">
+                    <p>Esse texto está no lado esquerdo.</p>
+                </div>
+                <div style="margin: auto; padding: 20px;  background-color: aqua;">
+                    <p>Esse texto está do lado Direito.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section style="text-align: center; margin: 30px;">
+        <img src="html.png">
+        <img src="css.png">
+    </section>
+    
+    <section style="width: 300px; margin: 0 40%; border: 3px solid blue">
+        <form >
+            <div style="margin: 10px">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" />
+            </div>
+            <div style="margin: 10px">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" />
+            </div>
+            <div style="margin: 10px">
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg"></textarea>
+            </div>
+            <div style="margin: 10px">
+                <button type="submit">Enviar sua mensagem</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
