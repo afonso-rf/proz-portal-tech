@@ -1,0 +1,10 @@
+/* Reset de estilos padrões do browser */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    text-decoration: none;
+    list-style: none;
+
+}
