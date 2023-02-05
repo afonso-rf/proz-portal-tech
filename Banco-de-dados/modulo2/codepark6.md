@@ -1,7 +1,6 @@
 # Banco de dados I - Codepark 6
 ***
 >De acordo com os comandos aprendidos, programe códigos SQL para criar um banco de dados chamado ESCOLA e deixe-o pronto para o uso. Depois, pesquise qual é o comando utilizado para inserir uma tabela no banco de dados e siga as instruções:
-
 >1. crie uma tabela chamada ALUNO;  
 >2. defina os atributos da tabela;
 >3. adicione a chave primária de nome ID (identificador);
@@ -18,7 +17,7 @@ No VScode, utilizei as extensões [SQLite](https://marketplace.visualstudio.com/
 
 Por ser simple, ele não compõe a syntax "DATABASE", então o arquivo `.db` ou `.sqlite` deverá ser criado manualmente. 
 
-![image](Screenshot_16.png)
+![image](codepark6/Screenshot_16.png)
 
 * 1. crie uma tabela chamada ALUNO;
 * 2. defina os atributos da tabela;
@@ -49,9 +48,9 @@ ALTER TABLE aluno ADD COLUMN endereco TEXT NOT NULL;
 ```
 ##### Resultado final
 
-![bd-escola](bd-escola.png)
+![bd-escola](codepark6/bd-escola.png)
 
-![tabela-aluno](tabela-aluno.png)
+![tabela-aluno](codepark6/tabela-aluno.png)
 
 
 ***
