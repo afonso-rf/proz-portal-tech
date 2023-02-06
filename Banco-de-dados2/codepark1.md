@@ -1,12 +1,12 @@
-# Banco de dados I - Codepark 2
+# Banco de dados II - Codepark 1
 ***
 
 >Desenvolva um banco de dados e relacione tabelas através de chaves estrangeiras ou nomes de colunas iguais. Siga as instruções:
->crie uma base de dados; 
->crie tabelas nessa base de dados;
->em cada tabela, adicione atributos;
->insira dados em cada tabela;
->utilize os comandos Joins para realizar consultas nas tabelas. 
+>Crie uma base de dados; 
+>Crie tabelas nessa base de dados;
+>Em cada tabela, adicione atributos;
+>Insira dados em cada tabela;
+>Utilize os comandos Joins para realizar consultas nas tabelas. 
 
 #### Resposta
 ***
